@@ -1,0 +1,53 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.container{}
+#home{}
+a:link {
+  color: #EF2918;
+  text-decoration:none;
+}
+
+
+a:visited {
+  color: #EF2918;
+}
+
+
+a:hover {
+  color: #EF2918;
+}
+
+
+a:active {
+  color: #EF2918;
+}
+.screen{
+  position: absolute;
+left: 437.02px;
+top: 139.76px;
+}
+.line{
+  position: absolute;
+width: 1440.02px;
+height: 0px;
+left: 0px;
+top: 761.92px;
+
+border: 5px solid #EF2918;
+}
+.go{
+ position: absolute;
+width: 270.05px;
+height: 65.65px;
+left: 1172.46px;
+top: 686.84px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+
+color: #EF2918; 
+}

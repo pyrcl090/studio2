@@ -1,0 +1,73 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.container{}
+#home{}
+.text{
+  
+position: absolute;
+width: 480px;
+height: 294.94px;
+left: 89.35px;
+top: 60.48px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+
+color: #EF2918;
+}
+.ransom{
+  position: absolute;
+left: 783.18px;
+top: 314.58px;
+}
+.line{
+  
+position: absolute;
+width: 268.37px;
+height: 0px;
+left: 1170.63px;
+top: 656.91px;
+
+border: 3px solid #EF2918;
+}
+a:link {
+  color: #EF2918;
+  text-decoration:none;
+}
+
+
+a:visited {
+  color: #EF2918;
+}
+
+
+a:hover {
+  color: #EF2918;
+}
+
+
+a:active {
+  color: #EF2918;
+}
+
+.go{
+  position: absolute;
+width: 72.94px;
+height: 65.65px;
+left: 1376.86px;
+top: 590.91px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+
+color: #EF2918;
+}
+
+
