@@ -1,0 +1,112 @@
+*{
+    cursor:none;
+}
+
+@font-face{
+    font-family:"Ortica";
+    src:url("./fonts/Ortica-Light.woff2") format("woff2");
+}
+
+body{
+    font-family: Ortica;
+    background-image: url('./images/website\ back2.png');
+    background-size: 100%;
+    background-color: #E2DCD3;
+}
+
+.title{
+    position: fixed;
+    bottom: 0%;
+    font-size: 3em;
+    color: white; 
+}
+
+p{
+    max-width: 300px;
+    font-size: 2em;
+    height: auto;
+    padding:20%;
+    color: blue;
+    z-index: 0;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    justify-content: space-around;
+    /* background-image: url('./images/website\ back2.png'); */
+}
+
+img{
+    max-height: 300px;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.frame-image{
+    z-index: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 400px;
+    max-height: auto;
+    display: flex;
+}
+
+.frame-image.off{
+    max-height: 1000px;
+    width: auto;
+    display: none;
+}
+
+.frame-description{
+    display: none;
+}
+
+p.frame-description.active{
+    display: flex;
+    font-size: 2em;
+    padding: 20%;
+    opacity: .5;
+    
+}
+
+p.frame-description.active:hover{
+    opacity: 1;
+}
+
+#cursor{
+    position: fixed;
+    left: 0%;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    border: 1pt solid blue;
+    pointer-events: none;
+    border-radius: 50%;
+    transition: width 0.5s, height 0.5s;
+    opacity: .5;
+
+}
+
+.speak{
+    height: auto;
+    display: block;
+    font-size: 3em;
+    color: white;
+    border: blue;
+    border-width: 2pt;
+    position: fixed;
+    top:0%;
+    right: 2%;
+    margin: 1%;
+}
+
+
+
+
