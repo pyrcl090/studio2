@@ -1,0 +1,7 @@
+*{
+    cursor:none;
+}
+@font-face{
+    font-family:"Apfel Grotezk Regular";
+    src:url("./fonts/ApfelGrotezk-Regular.woff2") format("woff2");
+}
