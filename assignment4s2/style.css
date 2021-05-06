@@ -1,0 +1,122 @@
+*{
+    cursor:none;
+}
+@font-face{
+    font-family:"Apfel Grotezk Regular";
+    src:url("./fonts/ApfelGrotezk-Regular.woff2") format("woff2");
+}
+
+body{
+    background-image: url("./images/backgroundImg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
+.rage-image{
+    position: fixed;
+    bottom: -10%;
+    right: 0px;
+    z-index: 2;
+    /* transform: rotate(30deg); */
+}
+
+#keys{
+    display: none;
+    
+}
+#finger{
+    position: fixed;
+    bottom: 0%;
+    right: -10%;
+    width: 40%;
+    height: auto;
+}
+#rage{
+    transform: rotate(-30deg);
+    width: 100%;
+    height: auto;
+    bottom: 0%;
+}
+#rage-text-one{
+    font-family: Apfel Grotezk Regular;
+    display: block; 
+    position: fixed;
+    color: black;
+    top: 30%;
+    left: 5%;
+    font-size: 10vw;
+    z-index: 3;
+    text-align: center;
+    transform: rotate(20deg);
+    
+
+}
+#cursor{
+    position: fixed;
+    left: 0%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    background-color:transparent;
+    /* background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 60%); */
+    pointer-events: none;
+    border-radius: 50%;
+    border-width: 2pt;
+    border-style: solid;
+    border-color: #f5ff00;
+    transition: width 0.5s, height 0.5s;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 920px) {
+    body {
+        background-image: url("./images/backgroundImg4.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 130%;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        
+    }
+    .rage-image{
+        position: fixed;
+        bottom: 0%;
+        left: 25%;
+        z-index: 2;
+        /* transform: rotate(30deg); */
+    }
+    #rage-text-one{
+        font-family: Apfel Grotezk Regular;
+        display: block; 
+        position: fixed;
+        color: black;
+        top: 50%;
+        left: 5%;
+        font-size: 10vw;
+        z-index: 3;
+        text-align: center;
+        transform: rotate(-20deg); 
+    }
+    #keys{
+    display: block;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    border-color: #f5ff00;
+    border-width: 2pt;
+    border-style: solid;
+    width: 50%;
+    height: auto;
+    }
+  }
