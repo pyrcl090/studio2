@@ -1,0 +1,64 @@
+@font-face{
+    font-family:"Porpora";
+    src:url("Porpora-Regular.woff2") format("woff2");
+}
+body{
+    font-family: Porpora;
+    padding: 0%;
+    margin: 2%; 
+    background-color: rgb(212, 211, 211);
+}
+.menu{
+    width: 100%;
+    padding-top: 30px;
+}
+p{
+    font-size: 3.5vh;
+    font-family: Porpora;
+    color:black;
+    line-height: 4vh;
+}
+.nom{
+    font-size: 3.5vh;
+    font-family: Porpora;
+    color:black;
+    line-height: 4vh;
+}
+.projet{
+    font-size: 3.5vh;
+    color: black;
+    text-align: left;
+    padding-left: 0%;
+    padding-right: 3%;
+}
+.projet:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+
+.rec2:hover{
+    text-decoration: none;
+}
+.tran2:hover{
+    text-decoration: none;
+}
+.play2:hover{
+    text-decoration: none;
+}
+.con2:hover{
+    text-decoration: none;
+}
+.cache{
+    display: none;
+}
+.cache.active{
+    display: inline-block;
+}
+img.top{
+    display: flex;
+    position: fixed;
+    height: 70vh;
+    right: 20px;
+    padding: auto;
+    z-index: -1;
+}
